@@ -54,14 +54,21 @@ TacoDip = new Recipe("Taco Dip",
                     );
 
 
-CaramelFlan = new Recipe("Caramel Flan", 
-                     "Bert Adams", 
-                     "https://images.unsplash.com/photo-1639108094328-2b94a49b1c2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80", 
-                     "caramelflan-ingredients.html", 
-                     "caramelflan-equipment.html", 
-                     "caramelflan-directions.html"
+PeachCrisp = new Recipe("Peach Crisp", 
+                     "Zaire Moon", 
+                     "https://images.unsplash.com/photo-1639588473831-dd9d014646ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", 
+                     "peachcrisp-ingredients.html", 
+                     "peachcrisp-equipment.html", 
+                     "peachcrisp-directions.html"
                     );
 
+FluffyFrenchToast = new Recipe("Fluffy French Toast",
+                    "Analysse Palomares",
+                    "https://images.unsplash.com/photo-1639108094328-2b94a49b1c2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+                    "fluffyfrenchtoast-ingredients.html",
+                    "fluffyfrenchtoast-equipment.html",
+                    "fluffyfrenchtoast-directions.html"
+                    );
 
 
 
@@ -69,12 +76,19 @@ window.onload = function() {
   
   document.querySelector("#firstRecipe").onclick = function() {
     TacoDip.displayRecipe();
-    
-  document.querySelector("secondRecipe").onclick = function() {
-    CaramelFlan.displayRecipe();
+  }
+  
+  document.querySelector("#secondRecipe").onclick = function() {
+    PeachCrisp.displayRecipe();
+  }
+  
+  document.querySelector("#thirdRecipe").onlick = function() {
+    FluffyFrenchToast.displayRecipe();
   }
     
-  }
+ 
+    
+  
   
   
   
