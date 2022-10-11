@@ -77,16 +77,14 @@ window.onload = function() {
   document.querySelector("#firstRecipe").onclick = function() {
     TacoDip.displayRecipe();
   }
-  
-  document.querySelector("#secondRecipe").onclick = function() {
-    PeachCrisp.displayRecipe();
-  }
-  
-  document.querySelector("#thirdRecipe").onlick = function() {
-    FluffyFrenchToast.displayRecipe();
-  }
+    document.querySelector("#secondRecipe").onclick = function() {
+      PeachCrisp.displayRecipe();
+    }
+      document.querySelector("#thirdRecipe").onclick = function() {
+        FluffyFrenchToast.displayRecipe();
+      }
+
     
- 
     
   
   
